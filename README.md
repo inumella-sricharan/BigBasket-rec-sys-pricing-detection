@@ -22,15 +22,26 @@ Frequency encoding does not really capture meaningful semantic information from 
 
 ### <ins>₹💸 Pricing detection:</ins><br>
 
-To detect an oppurtunity of applying discount thats guided by historical data, we need to form a target variable which indicates wether there is any difference between sale price and market price (1) or not (0) (binary). This can help the e-commerce website to generate potential products to apply discount upon from historical trends, in a way if the past product discounting strategy in the past was yeilding positive impacts such as:
+To detect an oppurtunity of applying discount thats guided by historical data, we need to form a target variable which indicates wether there is any difference between sale price and market price (1) or not (0) (binary). This can help the e-commerce website to generate potential products to apply discount upon from historical trends, in a way if the past product discounting strategy was yeilding positive impacts such as:
 1) Decrease in customer attrition.
 2) Increase in product sales.
 3) Increase in customer engagement time.
 4) Increase in overall revenue. And more.
 
 And if a ML model identifies patterns in the discounting strategy from historical data, we can gain additional insights and assistance by combining :<br>
-Domain knowledge driven discounting strategy + Insights from the ML model
+(Domain knowledge driven discounting strategy + Insights from the ML model)
 
 I trained a XGBoostClassifier with features as : previously generated embeddings, market price and ratings.
 
 ## <ins>📊 Results:</ins><br>
+
+|***train metrics***|
+|:------------:|:------------:|
+|precision | 0.779259726935522|
+|recall | 0.8098089067497745|
+|F1 Score |0.7942406692406693|
+|validation metrics||
+|precision | 0.7480680061823802|
+|recall | 0.7973640856672158|
+|F1 Score |0.7719298245614036|
+
