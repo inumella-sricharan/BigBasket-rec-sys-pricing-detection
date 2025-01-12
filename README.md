@@ -45,3 +45,46 @@ I trained a XGBoostClassifier with features as : previously generated embeddings
 |recall | 0.7973640856672158|
 |F1 Score |0.7719298245614036|
 
+
+|***train metrics***||
+|:------------:|:------------:|
+|precision | 0.7796610169491526|
+|recall | 0.8074831053238833|
+|F1 Score |0.7933282053358163|
+|***validation metrics***||
+|precision | 0.7642328723062077|
+|recall | 0.7679379444085327|
+|F1 Score |0.7660809285829437|
+
+|***train metrics***||
+|:------------:|:------------:|
+|precision | 0.7765261914139425|
+|recall | 0.809891554387118|
+|F1 Score |0.792858004584389|
+|***validation metrics***||
+|precision | 0.7632497619803237|
+|recall | 0.786976439790576|
+|F1 Score |0.7749315289189626|
+
+|***train metrics***||
+|:------------:|:------------:|
+|precision | 0.7749418153607448|
+|recall | 0.8179659351457582|
+|F1 Score |0.795872838817624|
+|***validation metrics***||
+|precision | 0.740991684631968|
+|recall | 0.7977453580901857|
+|F1 Score |0.768321890467827|
+
+|***train metrics***||
+|:------------:|:------------:|
+|precision | 0.7763815173275055|
+|recall | 0.8152610441767069|
+|F1 Score |0.795346419861672|
+|***validation metrics***||
+|precision | 0.7441424554826617|
+|recall | 0.7869177403369673|
+|F1 Score |0.7649325626204239|
+
+
+
