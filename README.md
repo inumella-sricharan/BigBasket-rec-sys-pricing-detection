@@ -35,7 +35,7 @@ I trained a XGBoostClassifier with features as : previously generated embeddings
 
 ## <ins>📊 Results:</ins><br>
 
-|***train metrics***|
+|***train metrics***| |
 |:------------:|:------------:|
 |precision | 0.779259726935522|
 |recall | 0.8098089067497745|
