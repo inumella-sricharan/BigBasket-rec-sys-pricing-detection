@@ -18,7 +18,7 @@ Frequency encoding does not really capture meaningful semantic information from 
 2) Finally the embedding for an entire sentence is created as the average of embeddings of the words that make up the sentence.<br>
 3) Given a query(product) the criteria for selecting top-k similar products is simply the ***'dot product'*** between the embeddings of the products.<br>
 
-***Note : This can be further improved by filtering out top-k products by generating embeddings out of product descriptions as well, so we can do a sort of a two-step similarity measure technique here.*** <br><br>
+***Note : This can be further improved by filtering out top-k products by generating embeddings out of product descriptions as well(possibly by using a pre-trained sentence transformer model), so we can do a sort of a two-step similarity measure technique here.*** <br><br>
 
 ### <ins>₹💸 Pricing detection:</ins><br>
 
@@ -35,6 +35,7 @@ I trained a XGBoostClassifier with features as : previously generated embeddings
 
 ## <ins>📊 Results:</ins><br>
 
+**Fold 0:** <br>
 |***train metrics***| |
 |:------------:|:------------:|
 |precision | 0.779259726935522|
@@ -45,7 +46,7 @@ I trained a XGBoostClassifier with features as : previously generated embeddings
 |recall | 0.7973640856672158|
 |F1 Score |0.7719298245614036|
 
-
+**Fold 1:** <br>
 |***train metrics***||
 |:------------:|:------------:|
 |precision | 0.7796610169491526|
@@ -56,6 +57,7 @@ I trained a XGBoostClassifier with features as : previously generated embeddings
 |recall | 0.7679379444085327|
 |F1 Score |0.7660809285829437|
 
+**Fold 2:** <br>
 |***train metrics***||
 |:------------:|:------------:|
 |precision | 0.7765261914139425|
@@ -66,6 +68,7 @@ I trained a XGBoostClassifier with features as : previously generated embeddings
 |recall | 0.786976439790576|
 |F1 Score |0.7749315289189626|
 
+**Fold 3:** <br>
 |***train metrics***||
 |:------------:|:------------:|
 |precision | 0.7749418153607448|
@@ -76,6 +79,7 @@ I trained a XGBoostClassifier with features as : previously generated embeddings
 |recall | 0.7977453580901857|
 |F1 Score |0.768321890467827|
 
+**Fold 4:** <br>
 |***train metrics***||
 |:------------:|:------------:|
 |precision | 0.7763815173275055|
